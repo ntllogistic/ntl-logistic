@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50">
       <div className="flex items-center justify-between gap-8 2xl:px-[12vw] px-8 md:px-[4vw] bg-background h-16 lg:h-20 relative">
-        <Link href="/" className="relative w-12 lg:w-16">
+        <Link href="/" className="relative w-14 lg:w-20">
           <LogoIcon />
         </Link>
         <Nav />
