@@ -6,7 +6,7 @@ import Gradient from "../ui/gradient";
 
 export default function Contact() {
   return (
-    <section className="px-8 md:px-[4vw] 2xl:px-[12vw] bg-background py-24 lg:y-40 relative flex flex-col gap-8 lg:grid grid-cols-2">
+    <section className="px-8 md:px-[4vw] 2xl:px-[12vw] bg-background py-24 lg:y-40 relative flex flex-col gap-8 lg:grid grid-cols-2 overflow-hidden">
       <div className="flex flex-col gap-8 max-w-xl z-20 relative">
         <h2 className="text-2xl lg:text-3xl text-white">
           Skontaktuj się{" "}
