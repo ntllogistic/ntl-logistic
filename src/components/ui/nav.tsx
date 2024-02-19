@@ -2,10 +2,17 @@
 
 import { SECTIONS } from "@/const/index";
 import NavLink from "./nav-link";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Nav() {
   const [isActive, setIsActive] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setIsActive(false);
+  }, [pathname]);
+
   return (
     <Fragment>
       <div
@@ -13,13 +20,14 @@ export default function Nav() {
           isActive ? "opacity-100" : "opacity-0 lg:opacity-100"
         }`}
       >
-        {SECTIONS.map((title) => (
+        {SECTIONS.map((link) => (
           <NavLink
-            callback={() => setIsActive(false)}
             className="py-2 lg:py-0"
-            key={title}
+            callback={() => setIsActive(false)}
+            href={link.href}
+            key={link.title}
           >
-            {title}
+            {link.title}
           </NavLink>
         ))}
       </div>

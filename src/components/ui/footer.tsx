@@ -13,8 +13,10 @@ export default function Footer() {
           <LogoIcon />
         </div>
         <div className="flex items-center gap-8 flex-wrap">
-          {SECTIONS.map((title) => (
-            <NavLink key={title}>{title}</NavLink>
+          {SECTIONS.map(({ title, href }) => (
+            <NavLink href={href} key={title}>
+              {title}
+            </NavLink>
           ))}
         </div>
         <ScrollButton />

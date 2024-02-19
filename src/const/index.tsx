@@ -1,9 +1,24 @@
-export const SECTIONS = [
-  "Strona główna",
-  "Co robimy",
-  "O nas",
-  "Usługi",
-  "Kontakt",
+export const SECTIONS: Section[] = [
+  {
+    title: "Strona główna",
+    href: "/",
+  },
+  {
+    title: "Co robimy",
+    href: "",
+  },
+  {
+    title: "O nas",
+    href: "",
+  },
+  {
+    title: "Usługi",
+    href: "",
+  },
+  {
+    title: "Kontakt",
+    href: "/kontakt",
+  },
 ];
 
 export const BENEFITS: Benefit[] = [

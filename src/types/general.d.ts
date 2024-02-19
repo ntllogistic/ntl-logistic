@@ -1,5 +1,6 @@
 type Section = {
   title: string;
+  href: string;
 };
 
 type Benefit = {

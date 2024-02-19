@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className="px-4 flex flex-col gap-4 md:grid grid-cols-3 bg-background">
       <div className="col-span-3 relative overflow-hidden rounded-lg">
-        <div className="bg-gradient-to-r from-[rgba(25,25,25,.95)] to-[rgba(25,25,25,.4)] sm:from-[rgba(25,25,25,.8)] sm:to-[rgba(25,25,25,.2)] w-full h-full px-8 md:px-[4vw] 2xl:px-[12vw] py-24 lg:py-64 relative z-10">
+        <div className="bg-gradient-to-r from-[rgba(25,25,25,.9)] to-[rgba(25,25,25,.5)] sm:from-[rgba(25,25,25,.8)] sm:to-[rgba(25,25,25,.2)] w-full h-full px-8 md:px-[4vw] 2xl:px-[12vw] py-32 lg:py-64 relative z-10">
           <div className="flex flex-col gap-6 relative z-10">
             <h1 className="text-3xl lg:text-4xl text-white font-semibold leading-snug lg:leading-snug">
               Innowacyjny Transport
@@ -27,7 +27,7 @@ export default function Hero() {
           fill
           sizes="(max-width: 1200px) 1400px, 100vw"
           priority
-          className="object-cover object-[70%_50%] lg:object-center"
+          className="object-cover object-[65%_100%] lg:object-[50%_90%]"
           src={hero.src}
           alt="Ciężarówka jadące po autostradzie"
         />
