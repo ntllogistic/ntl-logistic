@@ -14,12 +14,15 @@ export const inter = Inter({
 export const metadata: Metadata = {
   title: "NTL Logistic - Twój partner w transporcie i spedycji",
   description:
-    "Zespół NTL Logistic to ambitni i doświadczeni specjaliści, którzy zrealizują każdy projekt transportowy. Oferujemy transport do 3,5 tony, całopojazdowy, specjalistyczny, obejmujący Wielką Brytanię. Nowoczesne systemy GPS i stały monitoring zapewniają bezpieczeństwo i pewność dostaw.",
+    "Zespół NTL Logistic to ambitni i doświadczeni specjaliści, którzy zrealizują każdy projekt transportowy. Oferujemy transport do 3,5 tony, całopojazdowy, specjalistyczny, obejmujący Europę i Wielką Brytanię. Nowoczesne systemy GPS i stały monitoring zapewniają bezpieczeństwo i pewność dostaw.",
   keywords: [
     "transport",
     "spedycja",
     "NTL Logistic",
+    "Europa",
     "Wielka Brytania",
+    "Polska",
+    "Rzeszów",
     "całopojazdowy",
     "specjalistyczny",
     "naczepy kłonicowe",

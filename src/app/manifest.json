@@ -1,0 +1,32 @@
+{
+  "short_name": "NTL Logistic",
+  "name": "NTL Logistic - Twój partner w transporcie i spedycji",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#DA2311",
+  "background_color": "#ffffff",
+  "description": "Zespół NTL Logistic to ambitni i doświadczeni specjaliści, którzy zrealizują każdy projekt transportowy.",
+  "keywords": [
+    "transport",
+    "spedycja",
+    "NTL Logistic",
+    "do 3,5 tony",
+    "Wielka Brytania",
+    "całopojazdowy",
+    "specjalistyczny",
+    "naczepy kłonicowe",
+    "transport drewna",
+    "ponadgabarytowy",
+    "GPS",
+    "monitoring",
+    "bezpieczeństwo",
+    "pewność"
+  ]
+}

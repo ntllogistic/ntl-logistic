@@ -9,10 +9,10 @@ export default function Button({
   return (
     <button
       {...props}
-      className={`px-6 pr-16 h-12 text-white font-medium bg-primary text-[12px] rounded relative flex items-center justify-center max-w-max ${className}`}
+      className={`px-6 pr-16 h-11 text-white font-medium bg-primary text-[12px] rounded relative flex items-center justify-center max-w-max ${className}`}
     >
       {children}
-      <div className="absolute right-1 h-10 w-10 rounded bg-background grid place-content-center">
+      <div className="absolute right-1 h-9 w-9 rounded bg-background grid place-content-center">
         <ArrowIcon />
       </div>
     </button>
