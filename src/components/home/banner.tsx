@@ -6,7 +6,7 @@ import Gradient from "../ui/gradient";
 
 export default function Banner() {
   return (
-    <section className="px-8 md:px-[4vw] 2xl:px-[12vw] py-24 lg:py-36 relative flex flex-col items-center gap-8">
+    <section className="px-6 md:px-[4vw] 2xl:px-[12vw] py-24 lg:py-36 relative flex flex-col items-center gap-8">
       <h2 className="text-2xl lg:text-3xl text-center text-white">
         Doświadczenie i zaangażowanie
       </h2>

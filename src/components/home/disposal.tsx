@@ -2,7 +2,7 @@ import { inter } from "@/app/layout";
 
 export default function Disposal() {
   return (
-    <section className="px-8 md:px-[4vw] 2xl:px-[12vw] bg-white py-40 flex flex-col gap-8 lg:grid grid-cols-2">
+    <section className="px-6 md:px-[4vw] 2xl:px-[12vw] bg-white py-40 flex flex-col gap-8 lg:grid grid-cols-2">
       <div></div>
       <div className="flex flex-col gap-8 max-w-xl">
         <h2 className="text-2xl lg:text-3xl">

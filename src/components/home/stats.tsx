@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Stats() {
   return (
-    <section className="bg-white py-16 lg:py-40 px-8 md:px-[4vw] 2xl:px-[12vw] space-y-16 lg:space-y-24">
+    <section className="bg-white py-16 lg:py-40 px-6 md:px-[4vw] 2xl:px-[12vw] space-y-16 lg:space-y-24">
       <div className="flex flex-col gap-6 sm:grid grid-cols-2 lg:grid-cols-4">
         <div className="rounded overflow-hidden py-12 px-6 relative flex items-center justify-center">
           <h3 className="w-min text-2xl lg:text-3xl text-center text-white relative z-10 leading-normal lg:leading-normal mx-auto">

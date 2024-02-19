@@ -3,7 +3,7 @@ import { BENEFITS } from "@/const";
 
 export default function Benefits() {
   return (
-    <section className="px-8 md:px-[4vw] 2xl:px-[12vw] bg-light py-16 lg:py-24 flex flex-col gap-16 items-center">
+    <section className="px-6 md:px-[4vw] 2xl:px-[12vw] bg-light py-16 lg:py-24 flex flex-col gap-16 items-center">
       <h2 className="text-2xl lg:text-3xl text-center max-w-3xl xl:max-w-none">
         Profesjonalne usługi są gwarancją zadowolenia{" "}
         <sup className="text-primary -ml-2 lg:text-xl hidden xl:inline">
