@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    short_name: "NTL Logistic",
-    name: "NTL Logistic - Twój partner w transporcie i spedycji",
+    short_name: "NTL LOGISTIC",
+    name: "NTL LOGISTIC - Twój partner w transporcie i spedycji",
     icons: [
       {
         src: "/favicon.ico",
@@ -16,11 +16,11 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#DA2311",
     background_color: "#ffffff",
     description:
-      "Zespół NTL Logistic to ambitni i doświadczeni specjaliści, którzy zrealizują każdy projekt transportowy.",
+      "Zespół NTL LOGISTIC to ambitni i doświadczeni specjaliści, którzy zrealizują każdy projekt transportowy.",
     categories: [
       "transport",
       "spedycja",
-      "NTL Logistic",
+      "NTL LOGISTIC",
       "do 3,5 tony",
       "Wielka Brytania",
       "całopojazdowy",

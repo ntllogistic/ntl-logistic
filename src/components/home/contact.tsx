@@ -3,10 +3,17 @@ import { contact } from "@/assets/images";
 import Image from "next/image";
 import Button from "../ui/button";
 import Gradient from "../ui/gradient";
+import { HTMLAttributes } from "react";
 
-export default function Contact() {
+export default function Contact({
+  className,
+}: Pick<HTMLAttributes<HTMLDivElement>, "className">) {
   return (
-    <section className="px-6 md:px-[4vw] 2xl:px-[12vw] bg-background py-24 lg:y-40 relative flex flex-col gap-8 lg:grid grid-cols-2 overflow-hidden">
+    <section
+      className={`px-6 md:px-[4vw] 2xl:px-[12vw] bg-background py-24 lg:y-40 relative flex flex-col gap-8 lg:items-center lg:grid grid-cols-2 overflow-hidden ${
+        className || ""
+      }`}
+    >
       <div className="flex flex-col gap-8 max-w-xl z-20 relative">
         <h2 className="text-2xl lg:text-3xl text-white">
           Skontaktuj się{" "}
@@ -57,8 +64,8 @@ export default function Contact() {
         src={contact}
         alt="A truck riding in a rising sun"
       />
-      <Gradient className="absolute left-0 bottom-0 z-10 lg:z-20 w-[40rem]" />
-      <Gradient className="absolute right-0 top-0 z-10 w-[40rem] rotate-180" />
+      <Gradient className="absolute left-0 bottom-0 z-10 w-[40rem]" />
+      <Gradient className="absolute right-0 top-0 z-10 w-[40rem] rotate-180 hidden lg:block" />
     </section>
   );
 }

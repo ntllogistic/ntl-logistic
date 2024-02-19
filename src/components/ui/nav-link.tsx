@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { MouseEvent } from "react";
 
 type Props = { children: string; className?: string };
@@ -11,7 +12,14 @@ export default function NavLink({ children, className }: Props) {
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
-  return (
+  return children === "Kontakt" ? (
+    <Link
+      href="/kontakt"
+      className={`after:ml-auto text-white text-[12px] hover:text-primary-light transition-colors after:h-px after:block after:bg-primary after:w-full after:max-w-0 hover:after:max-w-[66%] after:transition-all ${className}`}
+    >
+      Kontakt
+    </Link>
+  ) : (
     <button
       className={`after:ml-auto text-white text-[12px] hover:text-primary-light transition-colors after:h-px after:block after:bg-primary after:w-full after:max-w-0 hover:after:max-w-[66%] after:transition-all ${className}`}
       onClick={handleClick}
