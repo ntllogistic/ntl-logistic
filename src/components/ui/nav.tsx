@@ -14,7 +14,11 @@ export default function Nav() {
         }`}
       >
         {SECTIONS.map((title) => (
-          <NavLink className="py-2 lg:py-0" key={title}>
+          <NavLink
+            callback={() => setIsActive(false)}
+            className="py-2 lg:py-0"
+            key={title}
+          >
             {title}
           </NavLink>
         ))}

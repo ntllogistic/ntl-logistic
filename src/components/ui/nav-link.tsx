@@ -3,13 +3,14 @@
 import Link from "next/link";
 import { MouseEvent } from "react";
 
-type Props = { children: string; className?: string };
+type Props = { children: string; callback?: () => void; className?: string };
 
-export default function NavLink({ children, className }: Props) {
+export default function NavLink({ children, callback, className }: Props) {
   const handleClick = (e: MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     const element = document.getElementById(children);
     element?.scrollIntoView({ behavior: "smooth" });
+    callback && callback();
   };
 
   return children === "Kontakt" ? (

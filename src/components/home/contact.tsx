@@ -10,7 +10,7 @@ export default function Contact({
 }: Pick<HTMLAttributes<HTMLDivElement>, "className">) {
   return (
     <section
-      className={`px-6 md:px-[4vw] 2xl:px-[12vw] bg-background py-24 lg:y-40 relative flex flex-col gap-8 lg:items-center lg:grid grid-cols-2 overflow-hidden ${
+      className={`px-6 md:px-[4vw] 2xl:px-[12vw] bg-background py-16 lg:py-40 relative flex flex-col gap-8 lg:items-center lg:grid grid-cols-2 overflow-hidden ${
         className || ""
       }`}
     >
@@ -35,7 +35,7 @@ export default function Contact({
           <p className="text-white text-sm">transport@ntl-logistic.com</p>
         </div>
       </div>
-      <div className="bg-background z-20 relative p-8 rounded">
+      <div className="bg-background z-20 relative p-8 rounded-md">
         <form action="">
           <div className="flex flex-col gap-4 sm:grid grid-cols-2">
             <input
