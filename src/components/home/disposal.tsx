@@ -25,7 +25,7 @@ export default function Disposal() {
         <p
           className={`${inter.className} leading-loose text-sm text-background/80 font-semibold`}
         >
-          NTL NATILLMO to sprawdzony partner w dziedzinie transportu i
+          NTL LOGISTIC to sprawdzony partner w dziedzinie transportu i
           logistyki. Jaki ładunek możemy dostarczyć dla Ciebie?
         </p>
       </div>

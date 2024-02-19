@@ -17,7 +17,7 @@ export default function Hero() {
             <p
               className={`text-white/80 leading-relaxed lg:leading-relaxed text-sm lg:text-base max-w-xl ${inter.className}`}
             >
-              NTL NATILLMO zapewnia najnowocześniejsze rozwiązania logistyczne,
+              NTL LOGISTIC zapewnia najnowocześniejsze rozwiązania logistyczne,
               które przynoszą sukces w każdym profesjonalnym wyzwaniu.
             </p>
             <Button className="mt-4">Bezpłatna wycena</Button>
