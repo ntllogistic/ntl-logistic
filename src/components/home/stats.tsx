@@ -34,7 +34,7 @@ export default function Stats() {
               112<span className="text-primary">+</span>
             </p>
             <span className="text-sm text-[#191919]/70">
-              Zadowolonych klientów
+              Zrealizowanych zleceń
             </span>
           </h3>
         </div>
@@ -54,7 +54,7 @@ export default function Stats() {
           siebie wszystko.”
         </blockquote>
         <figcaption className="text-primary text-sm">
-          Natalia Dawid, NTL Logistics
+          Natalia Dawid, NTL LOGISTIC
         </figcaption>
       </figure>
     </section>
