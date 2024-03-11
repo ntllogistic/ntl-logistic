@@ -1,9 +1,10 @@
-import { inter } from "@/app/layout";
+import { inter } from "@/assets/font/monument-extended";
 import { contact } from "@/assets/images";
 import Image from "next/image";
 import Button from "../ui/button";
 import Gradient from "../ui/gradient";
 import { HTMLAttributes } from "react";
+import Form from "../contact/form";
 
 export default function Contact({
   className,
@@ -27,7 +28,7 @@ export default function Contact({
           mi mattis convallis. Eget et dolor a amet eu viverra. Lorem ipsum
           dolor sit amet consectetur. Sed massa pellentesque massa mi
         </p>
-        <div className="space-y-4">
+        <div className={`${inter.className} space-y-4 font-semibold`}>
           <p className="text-white text-sm">+48 609 708 007</p>
           <p className="text-white text-sm">
             ul. Karola Lewakowskiego 10/4, 35-119 Rzeszów
@@ -36,25 +37,7 @@ export default function Contact({
         </div>
       </div>
       <div className="bg-background z-20 relative p-8 rounded-md">
-        <form action="">
-          <div className="flex flex-col gap-4 sm:grid grid-cols-2">
-            <input
-              type="text"
-              className="border-[1px] border-white/20 rounded py-3 px-6 text-[12px] bg-background text-white placeholder:text-white/80"
-              placeholder="Imię"
-            />
-            <input
-              type="email"
-              className="border-[1px] border-white/20 rounded py-3 px-6 text-[12px] bg-background text-white placeholder:text-white/80"
-              placeholder="E-mail"
-            />
-            <textarea
-              className="border-[1px] border-white/20 rounded py-3 px-6 text-[12px] bg-background text-white placeholder:text-white/80 min-h-[8rem] col-span-2"
-              placeholder="Treść wiadomości"
-            />
-            <Button className="mt-2">Wyślij</Button>
-          </div>
-        </form>
+        <Form />
       </div>
       <div className="absolute bg-background/[.89] inset-0 w-full h-full z-10" />
       <Image

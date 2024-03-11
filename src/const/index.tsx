@@ -4,16 +4,12 @@ export const SECTIONS: Section[] = [
     href: "/",
   },
   {
-    title: "Co robimy",
-    href: "",
-  },
-  {
     title: "O nas",
-    href: "",
+    href: "/o-nas",
   },
   {
     title: "Usługi",
-    href: "",
+    href: "/uslugi",
   },
   {
     title: "Kontakt",

@@ -48,14 +48,12 @@ export default function Stats() {
           </h3>
         </div>
       </div>
-      <figure className="flex flex-col gap-4 text-center items-center">
+      <figure className="flex flex-col gap-4 text-center items-center max-w-4xl mx-auto">
         <blockquote className="text-lg lg:text-xl">
-          “Jakość pojawia się tylko wtedy, gdy zależy Ci na tym, by dawać z
-          siebie wszystko.”
+          “Jakość to sposób myślenia, który powoduje, że stosuje się i bez
+          przerwy poszukuje najlepszych rozwiązań.”
         </blockquote>
-        <figcaption className="text-primary text-sm">
-          Natalia Dawid, NTL LOGISTIC
-        </figcaption>
+        <figcaption className="text-primary text-sm">Edward Deming</figcaption>
       </figure>
     </section>
   );

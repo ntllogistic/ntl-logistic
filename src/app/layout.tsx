@@ -1,15 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/ui/footer";
 import Header from "@/components/ui/header";
-import { monumentExtended } from "@/assets/font/monument-extended";
-
-export const inter = Inter({
-  subsets: ["latin"],
-  weight: "400",
-  display: "swap",
-});
+import { inter, monumentExtended } from "@/assets/font/monument-extended";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "NTL LOGISTIC - Twój partner w transporcie i spedycji",
@@ -54,6 +48,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <Toaster containerClassName={`${inter.className} text-sm`} />
       </body>
     </html>
   );

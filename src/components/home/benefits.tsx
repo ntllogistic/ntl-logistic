@@ -1,4 +1,4 @@
-import { inter } from "@/app/layout";
+import { inter } from "@/assets/font/monument-extended";
 import { BENEFITS } from "@/const";
 
 export default function Benefits() {

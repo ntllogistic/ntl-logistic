@@ -9,7 +9,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: "https://www.ntl-logistic.com/o-nas",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 1,
+    },
+    {
       url: "https://www.ntl-logistic.com/kontakt",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 1,
+    },
+    {
+      url: "https://www.ntl-logistic.com/uslugi",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,

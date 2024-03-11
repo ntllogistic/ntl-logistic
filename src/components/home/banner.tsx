@@ -1,14 +1,14 @@
-import { inter } from "@/app/layout";
+import { inter } from "@/assets/font/monument-extended";
 import { banner } from "@/assets/images";
 import Image from "next/image";
 import Button from "../ui/button";
 import Gradient from "../ui/gradient";
 
-export default function Banner() {
+export default function Banner({ hideTopArrow }: { hideTopArrow?: boolean }) {
   return (
     <section className="px-6 md:px-[4vw] 2xl:px-[12vw] py-24 lg:py-36 relative flex flex-col items-center gap-8">
       <h2 className="text-2xl lg:text-3xl text-center text-white">
-        Doświadczenie i zaangażowanie
+        Doświadczenie i stały rozwój
       </h2>
       <p
         className={`text-sm text-white ${inter.className} text-center leading-8 max-w-3xl`}
@@ -46,24 +46,26 @@ export default function Banner() {
           />
         </svg>
       </div>
-      <div className="absolute top-0 right-8 md:right-[4vw] 2xl:right-[12vw] -translate-y-1/2 w-16 lg:w-[108px]">
-        <svg
-          width="100%"
-          height="100%"
-          viewBox="0 0 108 158"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M64.6375 93.5893L93.9347 122.774C102.022 130.831 102.022 143.901 93.9347 151.952C85.8418 160.016 72.7305 160.016 64.6375 151.952L6.06087 93.5893C-2.02029 85.5317 -2.02029 72.4624 6.06087 64.4107L64.6375 6.04758C72.7305 -2.01585 85.8418 -2.01585 93.9347 6.04758C102.022 14.0993 102.022 27.1686 93.9347 35.2262L64.6375 64.4107C56.5564 72.4624 56.5564 85.5317 64.6375 93.5893Z"
-            fill="#2B717F"
-          />
-          <path
-            d="M94.561 84.5398L105.695 95.6194C108.768 98.6795 108.768 103.645 105.695 106.705C102.621 109.765 97.6345 109.765 94.561 106.705L72.3051 84.5398C69.2316 81.4797 69.2316 76.5203 72.3051 73.4602L94.561 51.2951C97.6345 48.235 102.621 48.235 105.695 51.2951C108.768 54.3552 108.768 59.3205 105.695 62.3747L94.561 73.4602C91.4876 76.5203 91.4876 81.4797 94.561 84.5398Z"
-            fill="#2B717F"
-          />
-        </svg>
-      </div>
+      {!hideTopArrow && (
+        <div className="absolute top-0 right-8 md:right-[4vw] 2xl:right-[12vw] -translate-y-1/2 w-16 lg:w-[108px]">
+          <svg
+            width="100%"
+            height="100%"
+            viewBox="0 0 108 158"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M64.6375 93.5893L93.9347 122.774C102.022 130.831 102.022 143.901 93.9347 151.952C85.8418 160.016 72.7305 160.016 64.6375 151.952L6.06087 93.5893C-2.02029 85.5317 -2.02029 72.4624 6.06087 64.4107L64.6375 6.04758C72.7305 -2.01585 85.8418 -2.01585 93.9347 6.04758C102.022 14.0993 102.022 27.1686 93.9347 35.2262L64.6375 64.4107C56.5564 72.4624 56.5564 85.5317 64.6375 93.5893Z"
+              fill="#2B717F"
+            />
+            <path
+              d="M94.561 84.5398L105.695 95.6194C108.768 98.6795 108.768 103.645 105.695 106.705C102.621 109.765 97.6345 109.765 94.561 106.705L72.3051 84.5398C69.2316 81.4797 69.2316 76.5203 72.3051 73.4602L94.561 51.2951C97.6345 48.235 102.621 48.235 105.695 51.2951C108.768 54.3552 108.768 59.3205 105.695 62.3747L94.561 73.4602C91.4876 76.5203 91.4876 81.4797 94.561 84.5398Z"
+              fill="#2B717F"
+            />
+          </svg>
+        </div>
+      )}
     </section>
   );
 }

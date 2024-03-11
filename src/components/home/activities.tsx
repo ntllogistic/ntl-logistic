@@ -1,4 +1,4 @@
-import { inter } from "@/app/layout";
+import { inter } from "@/assets/font/monument-extended";
 import Button from "../ui/button";
 
 export default function Activities() {

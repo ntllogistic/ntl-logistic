@@ -1,7 +1,7 @@
 import { hero, service, shipping, transport } from "@/assets/images";
 import Image from "next/image";
 import Button from "../ui/button";
-import { inter } from "@/app/layout";
+import { inter } from "@/assets/font/monument-extended";
 import Gradient from "../ui/gradient";
 
 export default function Hero() {

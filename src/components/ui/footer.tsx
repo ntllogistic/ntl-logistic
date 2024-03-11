@@ -3,6 +3,7 @@ import { SECTIONS } from "@/const/index";
 import NavLink from "./nav-link";
 import ScrollButton from "./scroll-button";
 import Link from "next/link";
+import { inter } from "@/assets/font/monument-extended";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -21,7 +22,9 @@ export default function Footer() {
         </div>
         <ScrollButton />
       </div>
-      <div className="flex items-center justify-between flex-wrap gap-8 2xl:px-[12vw] px-8 md:px-[4vw] bg-background-light py-4">
+      <div
+        className={`flex items-center justify-between flex-wrap gap-8 2xl:px-[12vw] px-8 md:px-[4vw] bg-background-light py-4 ${inter.className}`}
+      >
         <p className="text-white text-[12px] font-medium">
           Copyrights {year}. All rights reserved
         </p>
