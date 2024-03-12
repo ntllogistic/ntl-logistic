@@ -1,5 +1,6 @@
 import { stats } from "@/assets/images";
 import Image from "next/image";
+import StatRef from "./stat-ref";
 
 export default function Stats() {
   return (
@@ -18,26 +19,8 @@ export default function Stats() {
             alt="Pracownik branży transportowej"
           />
         </div>
-        <div className="rounded overflow-hidden py-12 sm:py-24 px-6 bg-[#EFEFEF] flex items-end justify-center">
-          <h3 className="text-4xl lg:text-5xl  text-center flex flex-col justify-center gap-3">
-            <p>
-              42<span className="text-primary">+</span>
-            </p>
-            <span className="text-sm text-[#191919]/70">
-              Zadowolonych klientów
-            </span>
-          </h3>
-        </div>
-        <div className="rounded overflow-hidden py-12 sm:py-24 px-6 bg-[#EFEFEF] flex items-end justify-center">
-          <h3 className="text-4xl lg:text-5xl  text-center flex flex-col justify-center gap-3">
-            <p>
-              112<span className="text-primary">+</span>
-            </p>
-            <span className="text-sm text-[#191919]/70">
-              Zrealizowanych zleceń
-            </span>
-          </h3>
-        </div>
+        <StatRef end={42} title="Zadowolonych klientów" />
+        <StatRef end={112} title="Zrealizowanych zleceń" />
         <div className="rounded overflow-hidden py-12 sm:py-24 px-6 bg-[#EFEFEF] flex items-end justify-center">
           <h3 className="text-4xl lg:text-5xl  text-center flex flex-col justify-center gap-3">
             <p className="text-sm text-primary ml-auto text-right">Tysięcy</p>
