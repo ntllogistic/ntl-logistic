@@ -28,12 +28,10 @@ export default function Disposal() {
         <p
           className={`${inter.className} leading-loose text-sm text-background/80`}
         >
-          Lorem ipsum dolor sit amet consectetur. Convallis sodales dui commodo
-          eu iaculis sodales odio egestas. Ornare ac eget nunc elit maecenas
-          eget cras fringilla. Faucibus maecenas a est tellus enim. Lorem est
-          sem augue auctor malesuada ornare nunc porta id. Dolor pellentesque
-          platea maecenas risus. Quisque eleifend morbi consectetur amet duis
-          sagittis. Eget dui volutpat sed sed vitae diam ornare molestie.
+          Nasza firma oferuje kompleksowe rozwiązania w zakresie transportu i
+          logistyki, dostosowane do indywidualnych potrzeb klienta. Dzięki
+          zaangażowanemu zespołowi i nowoczesnym technologiom zapewniamy
+          efektywność oraz niezawodność naszych usług na każdym etapie procesu.
         </p>
         <p
           className={`${inter.className} leading-loose text-sm text-background/80 font-semibold`}

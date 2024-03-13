@@ -24,17 +24,20 @@ export default function Contact({
           <span className="text-primary sm:hidden">z nami</span>
         </h2>
         <p className={`${inter.className} leading-loose text-sm text-white/80`}>
-          Lorem ipsum dolor sit amet consectetur. Sed massa pellentesque massa
-          mi mattis convallis. Eget et dolor a amet eu viverra. Lorem ipsum
-          dolor sit amet consectetur. Sed massa pellentesque massa mi
+          Nasz doświadczony zespół jest do Twojej dyspozycji! Odpowiemy na Twoje
+          pytania i przedstawimy Ci ofertę dopasowaną do Twoich potrzeb.
+          Skontaktuj się z nami w dogodny dla Ciebie sposób:
         </p>
-        <div className={`${inter.className} space-y-4 font-semibold`}>
-          <p className="text-white text-sm">+48 609 708 007</p>
-          <p className="text-white text-sm">
+        <dl className={`${inter.className} space-y-4 font-semibold`}>
+          <dt className="absolute opacity-0 select-none">Numer telefonu</dt>
+          <dd className="text-white text-sm">+48 609 708 007</dd>
+          <dt className="absolute opacity-0 select-none">Adres</dt>
+          <dd className="text-white text-sm">
             ul. Karola Lewakowskiego 10/4, 35-119 Rzeszów
-          </p>
-          <p className="text-white text-sm">transport@ntl-logistic.com</p>
-        </div>
+          </dd>
+          <dt className="absolute opacity-0 select-none">Email</dt>
+          <dd className="text-white text-sm">transport@ntl-logistic.com</dd>
+        </dl>
       </div>
       <div className="bg-background z-20 relative p-8 rounded-md">
         <Form />

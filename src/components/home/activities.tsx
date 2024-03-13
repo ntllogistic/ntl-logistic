@@ -2,6 +2,7 @@ import { inter } from "@/assets/font/monument-extended";
 import Button from "../ui/button";
 import Image from "next/image";
 import { activities } from "@/assets/images";
+import Link from "next/link";
 
 export default function Activities() {
   return (
@@ -28,7 +29,9 @@ export default function Activities() {
           13,6 LDM/24T, ładunków częściowych oraz specjalistyczny transport
           drewna otwartymi naczepami kłonicowymi.
         </p>
-        <Button className="mt-4">Bezpłatna wycena</Button>
+        <Link className="mt-4" href="/kontakt">
+          <Button asChild>Bezpłatna wycena</Button>
+        </Link>
       </div>
       <div className="relative">
         <div className="relative mx-auto lg:mx-0 lg:mr-auto max-w-xl min-h-[5in] lg:h-full">

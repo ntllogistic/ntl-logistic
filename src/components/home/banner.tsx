@@ -3,6 +3,7 @@ import { banner } from "@/assets/images";
 import Image from "next/image";
 import Button from "../ui/button";
 import Gradient from "../ui/gradient";
+import Link from "next/link";
 
 export default function Banner({ hideTopArrow }: { hideTopArrow?: boolean }) {
   return (
@@ -19,7 +20,9 @@ export default function Banner({ hideTopArrow }: { hideTopArrow?: boolean }) {
         najkorzystniejsze rozwiązania, z uwzględnieniem czynników ekonomicznych
         oraz jakościowych.
       </p>
-      <Button>Bezpłatna wycena</Button>
+      <Link href="/kontakt">
+        <Button asChild>Bezpłatna wycena</Button>
+      </Link>
       <Image
         fill
         sizes="(max-width: 768px) 1920px, 100vw"

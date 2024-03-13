@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "../ui/button";
 import { inter } from "@/assets/font/monument-extended";
 import Gradient from "../ui/gradient";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -20,7 +21,9 @@ export default function Hero() {
               NTL LOGISTIC zapewnia najnowocześniejsze rozwiązania logistyczne,
               które przynoszą sukces w każdym profesjonalnym wyzwaniu.
             </p>
-            <Button className="mt-4">Bezpłatna wycena</Button>
+            <Link className="mt-4" href="/kontakt">
+              <Button asChild>Bezpłatna wycena</Button>
+            </Link>
           </div>
         </div>
         <Image

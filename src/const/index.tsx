@@ -21,7 +21,7 @@ export const BENEFITS: Benefit[] = [
   {
     title: "Zaangażowany zespół",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam malesuada penatibus at id dignissim et diam dui",
+      "Zaangażowanie, profesjonalizm i troska. Gotowi sprostać każdemu wyzwaniu.",
     icon: (
       <svg
         width="36"
@@ -55,7 +55,7 @@ export const BENEFITS: Benefit[] = [
   {
     title: "Prawidłowy transport",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam malesuada penatibus at id dignissim et diam dui ",
+      "Zapewniamy precyzyjną realizację, dbając o terminowość i bezpieczeństwo towarów.",
     icon: (
       <svg
         width="36"
@@ -122,7 +122,7 @@ export const BENEFITS: Benefit[] = [
   {
     title: "Kompleksowe podejście",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam malesuada penatibus at id dignissim et diam dui ",
+      "Nasza strategia uwzględnia każdy szczegół, zapewniając kompleksową obsługę.",
     icon: (
       <svg
         width="36"
@@ -227,8 +227,7 @@ export const BENEFITS: Benefit[] = [
   },
   {
     title: "Stały monitoring",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam malesuada penatibus at id dignissim et diam dui ",
+    description: "Bezustanny nadzór i szybka reakcja na ewentualne wyzwania.",
     icon: (
       <svg
         width="36"
@@ -365,7 +364,7 @@ export const BENEFITS: Benefit[] = [
   {
     title: "Obsługa UE oraz Wielkiej Brytanii",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam malesuada penatibus at id dignissim et diam dui ",
+      "Służymy pełnym wsparciem i zrozumieniem lokalnych wymogów i procedur.",
     icon: (
       <svg
         width="36"
@@ -415,7 +414,7 @@ export const BENEFITS: Benefit[] = [
   {
     title: "Wsparcie doświadczeniem",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam malesuada penatibus at id dignissim et diam dui ",
+      "Dzięki naszemu bogatemu doświadczeniu zapewniamy profesjonalne wsparcie.",
     icon: (
       <svg
         width="36"
@@ -465,7 +464,7 @@ export const BENEFITS: Benefit[] = [
   {
     title: "Naczepy kłonicowe",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam malesuada penatibus at id dignissim et diam dui ",
+      "Optymalizacja każdej trasy. Niezawodność i efektywność na każdym kroku.",
     icon: (
       <svg
         width="36"
