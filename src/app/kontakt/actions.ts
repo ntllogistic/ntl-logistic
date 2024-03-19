@@ -19,7 +19,6 @@ export async function sendForm(formData: FormData) {
   const email = formData.get("email");
   const message = formData.get("message");
   try {
-    console.log("feaefaf");
     const err = await new Promise<string>((resolve, reject) => {
       transporter.sendMail(
         {

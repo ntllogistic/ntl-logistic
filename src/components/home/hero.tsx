@@ -4,7 +4,6 @@ import Button from "../ui/button";
 import { inter } from "@/assets/font/monument-extended";
 import Gradient from "../ui/gradient";
 import Link from "next/link";
-import Title from "./title";
 
 export default function Hero() {
   return (

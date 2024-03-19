@@ -1,7 +1,6 @@
 import { inter } from "@/assets/font/monument-extended";
 import { contact } from "@/assets/images";
 import Image from "next/image";
-import Button from "../ui/button";
 import Gradient from "../ui/gradient";
 import { HTMLAttributes } from "react";
 import Form from "../contact/form";
