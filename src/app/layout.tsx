@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "promy",
     "naczepy otwarte",
   ],
-  metadataBase: new URL("https://www.ntl-logistic.com"),
+  metadataBase: new URL("https://www.ntllogistic.com"),
 };
 
 export default function RootLayout({
