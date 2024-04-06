@@ -43,15 +43,7 @@ export default function Activities() {
             alt="Ciężarówka transportująca"
           />
           <div className="bg-background absolute left-0 top-0 h-1/6 w-1/5 rounded-br"></div>
-          <figure className="absolute -bottom-24 sm:-bottom-8 right-0 sm:-right-8 space-y-2 rounded p-8 bg-[#252525] sm:max-w-xs">
-            <blockquote className="text-[12px] text-white leading-relaxed">
-              “Jakość to sposób myślenia, który powoduje, że stosuje się i bez
-              przerwy poszukuje najlepszych rozwiązań.”
-            </blockquote>
-            <figcaption className="text-white/70 text-[12px]">
-              Edward Deming
-            </figcaption>
-          </figure>
+          <div className="bg-background absolute right-0 bottom-0 h-1/6 w-1/5 rounded-tl"></div>
         </div>
       </div>
     </section>

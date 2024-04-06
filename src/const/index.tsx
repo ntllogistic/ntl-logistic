@@ -464,7 +464,7 @@ export const BENEFITS: Benefit[] = [
   {
     title: "Naczepy kłonicowe",
     description:
-      "Optymalizacja każdej trasy. Niezawodność i efektywność na każdym kroku.",
+      "Specjalistyczny transport na terenie województw warmińsko-mazurskiego, mazowieckiego i kujawsko-pomorskiego",
     icon: (
       <svg
         width="36"

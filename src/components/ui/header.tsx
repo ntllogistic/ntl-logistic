@@ -1,8 +1,7 @@
 import LogoIcon from "@/assets/icons/logo";
-import PhoneIcon from "@/assets/icons/phone";
-import MailIcon from "@/assets/icons/mail";
 import Nav from "./nav";
 import Link from "next/link";
+import Button from "./button";
 
 export default function Header() {
   return (
@@ -12,7 +11,7 @@ export default function Header() {
           <LogoIcon />
         </Link>
         <Nav />
-        <div className="items-center gap-8 hidden xl:flex">
+        {/* <div className="items-center gap-8 hidden xl:flex">
           <div className="flex items-center gap-2">
             <PhoneIcon />
             <span className="text-[12px] text-white font-medium">
@@ -25,7 +24,10 @@ export default function Header() {
               transport@ntl-logistic.com
             </span>
           </div>
-        </div>
+        </div> */}
+        <Link href="/kontakt">
+          <Button asChild>Bezpłatna wycena</Button>
+        </Link>
       </div>
     </header>
   );

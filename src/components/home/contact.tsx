@@ -27,15 +27,35 @@ export default function Contact({
           pytania i przedstawimy Ci ofertę dopasowaną do Twoich potrzeb.
           Skontaktuj się z nami w dogodny dla Ciebie sposób:
         </p>
-        <dl className={`${inter.className} space-y-4 font-semibold`}>
-          <dt className="absolute opacity-0 select-none">Numer telefonu</dt>
-          <dd className="text-white text-sm">+48 609 708 007</dd>
-          <dt className="absolute opacity-0 select-none">Adres</dt>
-          <dd className="text-white text-sm">
-            ul. Karola Lewakowskiego 10/4, 35-119 Rzeszów
+        <dl className="space-y-4 font-semibold">
+          <div className="flex items-center flex-wrap gap-4">
+            <div>
+              <span className="text-primary text-[12px]">Transport</span>
+              <dt className="absolute opacity-0 select-none -z-10">
+                Numer telefonu - transport
+              </dt>
+              <dd className={`${inter.className} text-white text-sm`}>
+                +48 609 708 007
+              </dd>
+            </div>
+            <div>
+              <span className="text-primary text-[12px]">Spedycja</span>
+              <dt className="absolute opacity-0 select-none -z-10">
+                Numer telefonu - spedycja
+              </dt>
+              <dd className={`${inter.className} text-white text-sm`}>
+                +48 609 708 007
+              </dd>
+            </div>
+          </div>
+          <dt className="absolute opacity-0 select-none -z-10">Adres</dt>
+          <dd className={`${inter.className} text-white text-sm`}>
+            ul. Karola Lewakowskiego 10/8, 35-119 Rzeszów
           </dd>
-          <dt className="absolute opacity-0 select-none">Email</dt>
-          <dd className="text-white text-sm">transport@ntl-logistic.com</dd>
+          <dt className="absolute opacity-0 select-none -z-10">Email</dt>
+          <dd className={`${inter.className} text-white text-sm`}>
+            transport@ntl-logistic.com
+          </dd>
         </dl>
       </div>
       <div className="bg-background z-20 relative p-8 rounded-md">
@@ -49,7 +69,7 @@ export default function Contact({
         src={contact}
         alt="A truck riding in a rising sun"
       />
-      <Gradient className="absolute left-0 bottom-0 z-10 w-[40rem]" />
+      <Gradient className="absolute left-0 -bottom-16 z-10 w-[40rem]" />
       <Gradient className="absolute right-0 top-0 z-10 w-[40rem] rotate-180 hidden lg:block" />
     </section>
   );
