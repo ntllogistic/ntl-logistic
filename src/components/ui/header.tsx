@@ -11,22 +11,9 @@ export default function Header() {
           <LogoIcon />
         </Link>
         <Nav />
-        {/* <div className="items-center gap-8 hidden xl:flex">
-          <div className="flex items-center gap-2">
-            <PhoneIcon />
-            <span className="text-[12px] text-white font-medium">
-              +48 609 708 007
-            </span>
-          </div>
-          <div className="flex items-center gap-2">
-            <MailIcon />
-            <span className="text-[12px] text-white font-medium">
-              transport@ntl-logistic.com
-            </span>
-          </div>
-        </div> */}
-        <Link href="/kontakt">
-          <Button asChild>Bezpłatna wycena</Button>
+
+        <Link className="hidden lg:block" href="/kontakt">
+          <Button asChild>Skontaktuj się z nami</Button>
         </Link>
       </div>
     </header>

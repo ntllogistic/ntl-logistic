@@ -35,7 +35,7 @@ export default function Contact({
                 Numer telefonu - transport
               </dt>
               <dd className={`${inter.className} text-white text-sm`}>
-                +48 609 708 007
+                +48 792 792 645
               </dd>
             </div>
             <div>
